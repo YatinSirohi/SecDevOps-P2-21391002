@@ -15,7 +15,6 @@ pipeline {
         echo 'Testing...'
         snykSecurity(
           snykInstallation: 'yatin-snyk-api-token',
-          snykTokenId: 'acf3db72-60ad-4db0-92b4-caae05429310',
         )
       }
     } 
